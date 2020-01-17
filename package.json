@@ -1,0 +1,15 @@
+{
+  "name": "nodech2",
+  "version": "1.0.0",
+  "description": "Chapter 02 of Maximilian's Complete Guide to Node JS Udemy Course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ExpressJS",
+    "ChapterTwo"
+  ],
+  "author": "TurtleWolfe.com",
+  "license": "ISC"
+}
