@@ -11,8 +11,20 @@ app.use((requ, resp, next) => {
 });
 
 app.use('/users', (requ, resp, next) => {
+    console.log('only runs with users');
+    // resp.send('<h1>MiddleWare</h1>');
+    next();
+});
+
+app.use('/users', (requ, resp, next) => {
     console.log('users');
     resp.send('<h1>users</h1>');
+});
+
+app.use('/', (requ, resp, next) => {
+    console.log('only runs with slash');
+    // resp.send('<h1>MiddleWare</h1>');
+    next();
 });
 
 app.use('/', (requ, resp, next) => {
