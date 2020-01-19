@@ -2,7 +2,7 @@
 
 1. `mkdir`
    - best practice
-   - `name wise, don't rush`
+   - `name wisely, don't rush`
 2. `cd`
 3. add configuration
    - `"console": "integratedTerminal"`
@@ -30,11 +30,16 @@
    - '/users POST'
    - '/users POST'
    - '404'
-10. `static .js or .css`
+   - [![ExpressJS.com](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'ExpressJS')](https://expressjs.com/en/4x/api.html 'ExpressJS API')
+10. `static files`
+    - `app.use('/users', (requ, resp, next) => { console.log('middleWare'); next(); });`
     - '/'
     - '/'
     - '/users GET'
     - '/users GET'
     - '/users POST'
-    - '/users POST'
+    - [app.use()](https://expressjs.com/en/4x/api.html#app.use 'app.use((req,res, next)=>{
+    next()
+})')
     - '404'
+    - [![ExpressJS.com](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png 'ExpressJS')](https://expressjs.com/en/4x/api.html 'ExpressJS API')
