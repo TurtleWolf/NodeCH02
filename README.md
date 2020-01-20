@@ -21,14 +21,17 @@
 7. **`npm start`**
    - dev server
    - auto refresh (`hotloading`?/live reload)
-8. **`server` #26**
+8. **`server` #26 & 59**
    - `const express = require('express');`
    - `const app = express();`
-   - `app.listen(3000);`
-   - #31 `Headers`
+   - `app.listen(3000);` #62
+   - #31 & 61 `Headers`
+   - `resp.setHeader();`
+   - `resp.write();`
+   - `resp.send();`
 9. **`routes` #43 homepage npm node/mon?**
    - #58 search for alternatives `[Adonis(Laravel), Koa, Sails, Gatsby?, Next?]`
-   - [app.use()](https://expressjs.com/en/4x/api.html#app.use 'app.use("/users", (req,res, next)=>{
+   - [app.use() #63](https://expressjs.com/en/4x/api.html#app.use 'app.use("/users", (req,res, next)=>{
 console.log("middleWare")
 next()
 })')
@@ -41,7 +44,7 @@ next()
    - '404'
 10. **`static routes`**
     - [app.use()](https://expressjs.com/en/4x/api.html#app.use 'app.use("/users", (req,res, next)=>{
-  console.log("middleWare")
-  next()
-  })')
+      console.log("middleWare")
+      next()
+      })')
     - '404'
