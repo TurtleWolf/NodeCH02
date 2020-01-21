@@ -37,7 +37,7 @@ next()
 })')
    - **`mkdir routes`**
    - [const path = require(path); #70](https://nodejs.org/docs/latest-v8.x/api/path.html 'require path')
-   - [res.sendFile() #70](https://expressjs.com/en/4x/api.html#res.sendFile 'res.sendFile(path.join(__dirname, ../, views, shop.html));')
+   - [res.sendFile() #70 & #72](https://expressjs.com/en/4x/api.html#res.sendFile 'res.sendFile(path.join(__dirname, .., views, shop.html));')
    - [res.status(404).sendFile() #71](https://expressjs.com/en/4x/api.html#res.status 'res.status().sendFile(path.join(__dirname, views, shop.html));')
    - '/'
    - '/users GET'
