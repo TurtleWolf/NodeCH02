@@ -31,11 +31,11 @@
    - `resp.send();`
 9. **`routes` #43 homepage npm node/mon?**
    - #58 search for alternatives `[Adonis(Laravel), Koa, Sails, Gatsby?, Next?]`
-   - [app.use() #63](https://expressjs.com/en/4x/api.html#app.use 'app.use("/users", (req,res, next)=>{
-console.log("middleWare")
-next()
-})')
-   - '404'
+   - [app.use() #63 #66](https://expressjs.com/en/4x/api.html#app.use 'app.use("/users", (req,res, next)=>{
+       console.log("middleWare")
+       next()
+       })')
+   - **`mkdir routes`**
    - '/'
    - '/users GET'
    - '/users GET'
